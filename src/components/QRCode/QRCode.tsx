@@ -2,12 +2,14 @@ import styles from "./QRCode.module.scss";
 import classNames from "classnames/bind";
 const cx = classNames.bind(styles);
 
+import PNG_QRCODE from "../../../public/image-qr-code.png";
+
 export const QRCode = () => {
   return (
     <div className={cx("qrcode__container")}>
       <div className={cx("qrcode__container__image")}>
         <img
-          src="/images/image-qr-code.png"
+          src={PNG_QRCODE}
           alt="qr code image"
         />
       </div>
