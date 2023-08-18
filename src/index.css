@@ -6,8 +6,11 @@
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  background-color: #d5e1ef;
+}
+
+body > #root {
+  height: 100%;
 }
